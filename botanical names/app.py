@@ -5,10 +5,10 @@ import os
 
 # -------------------- CONFIG --------------------
 st.set_page_config(page_title="Flash Card Vilaiyattu", layout="wide")
-CARD_FRONT = "images/card_front.png"
-CARD_BACK = "images/card_back.png"
-WORDS_TO_LEARN_CSV = "words_to_learn.csv"
-CSV_FILE = "my_flashcards.csv"
+CARD_FRONT = "botanical names/images/card_front.png"
+CARD_BACK = "botanical names/images/card_back.png"
+WORDS_TO_LEARN_CSV = "botanical names/words_to_learn.csv"
+CSV_FILE = "botanical names/my_flashcards.csv"
 
 # -------------------- LOAD DATA --------------------
 def load_words():
